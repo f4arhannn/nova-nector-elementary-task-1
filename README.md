@@ -1,34 +1,52 @@
-def play_game():
-    name = input("What is your name? ")
-    print("Hello, " + name + "! Welcome to the adventure game!")
-    print("You are in a dark room and you have to choose between two doors. Choose wisely!")
-    door = input("Which door do you choose? (black door or white door) ")
+# Text Adventure Game
 
-    if door == "black door":
-        print("You have entered the treasure room. But you have to solve a riddle to get the treasure.")
-        print("Riddle: What has keys but can't open locks?")
-        answer = input("Enter your answer: ")
-        if answer.lower() == "keyboard":
-            print("Congratulations! You have got the treasure.")
-        else:
-            print("Sorry! Wrong answer. You missed the treasure.")
-    elif door == "white door":
-        print("You have entered the room of a fire-breathing dragon.")
-        print("The dragon is sleeping. You have two choices: sneak past the dragon or fight the dragon.")
-        choice = input("What do you choose? (sneak/fight) ")
-        if choice == "sneak":
-            print("You successfully sneaked past the dragon and found an exit. You are safe!")
-        elif choice == "fight":
-            print("You tried to fight the dragon but it woke up and burned you. Game over!")
-        else:
-            print("Invalid choice. The dragon woke up and burned you. Game over!")
-    else:
-        print("Invalid choice. You got stuck in the room forever. Game over!")
+Welcome to the **Text Adventure Game**! This is a simple yet engaging text-based adventure game where players navigate through a mysterious world filled with challenges, puzzles, and intriguing characters. 
 
-    print("Thank you for playing the adventure game!")
+## Table of Contents
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Gameplay](#gameplay)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-while True:
-    play_game()
-    play_again = input("Do you want to play again? (yes/no) ")
-    if play_again.lower() != "yes":
-        break
+## Features
+- **Engaging Storyline**: Immerse yourself in a rich narrative filled with twists and turns.
+- **Dynamic Choices**: Your decisions shape the outcome of the game.
+- **Puzzles and Challenges**: Solve riddles and overcome obstacles to progress.
+- **Multiple Endings**: Experience different endings based on your choices.
+
+## Getting Started
+
+### Prerequisites
+To run this game, you need:
+- Python 3.x installed on your machine.
+
+### Installation
+1. Clone the repository:
+git clone https://github.com/f4arhannn/nova-nector-elementary-task-1
+text
+2. Navigate into the project directory:
+cd text-adventure-game
+text
+
+## Gameplay
+In this game, you will explore various locations, interact with characters, and make choices that affect the story. The game is played entirely through text input and output.
+
+Follow the on-screen instructions to begin your adventure!
+
+## Contributing
+We welcome contributions! If you'd like to contribute to this project, please follow these steps:
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/YourFeature`).
+3. Make your changes and commit them (`git commit -m 'Add some feature'`).
+4. Push to the branch (`git push origin feature/YourFeature`).
+5. Open a pull request.
+
+## License
+free to use
+
+---
+
+Enjoy your adventure!
